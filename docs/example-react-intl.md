@@ -22,7 +22,7 @@ import IntlPolyfill from 'intl'
 import 'intl/locale-data/jsonp/pt'
 
 const setupTests = () => {
- // https://formatjs.io/guides/runtime-environments/#server
+ // https://formatjs.io/docs/guides/runtime-requirements
  if (global.Intl) {
    Intl.NumberFormat = IntlPolyfill.NumberFormat
    Intl.DateTimeFormat = IntlPolyfill.DateTimeFormat
@@ -45,7 +45,7 @@ import IntlPolyfill from 'intl'
 import 'intl/locale-data/jsonp/pt'
 
 const setupTests = () => {
-  // https://formatjs.io/guides/runtime-environments/#server
+  // https://formatjs.io/docs/guides/runtime-requirements
   if (global.Intl) {
     Intl.NumberFormat = IntlPolyfill.NumberFormat
     Intl.DateTimeFormat = IntlPolyfill.DateTimeFormat
